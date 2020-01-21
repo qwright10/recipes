@@ -1,0 +1,24 @@
+{
+    "name": "Divine Hard-Boiled Eggs",
+    "author": "rockyroad",
+    "time": {
+        "total": "2h 50m",
+        "prep": "5m",
+        "cook": "15m"
+    },
+    "description": "These hard-boiled eggs are cooked perfectly every time without turning the yolks green.",
+    "ingredients": {
+        "eggs": 12
+    },
+    "steps": [
+        "Place eggs in a pot; pour enough water over the eggs to cover. Cover and turn stove to high; bring to a boil; turn off heat and place pot on a cool burner. Let the pot sit with the cover on for 15 minutes. Meanwhile, fill a large bowl halfway with ccold water; transfer the eggs from the pot to the cold water. Replace the water with cold water as needed to keep cold until the eggs are completely cooled. Chill in refigerator at least 2 hours before peeling."
+    ],
+    "nutrition": {
+        "calories": 72,
+        "fat": "5g",
+        "carbs": "0.4g",
+        "protein": "6.3g",
+        "cholesterol": "186mg",
+        "sodium": "70mg"
+    }
+}

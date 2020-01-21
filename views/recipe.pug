@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+    head
+        title= name
+        meta(name='viewport' inital-scale=1 content='width=device-width')
+        meta(name='description' content='A recipe by ' + author)
+        meta(name='theme_color' content='#FFFFFF')
+        link(rel='manifest' href='/manifest.json')
+    body
+        - const ing = Object.entries(ingredients).map(v => `${v[1]} ${v[0]}`);
+        h1= name
+        h4 Author: #{author}
+        h4 Cook time: #{time.total}
+
+        h3 Ingredients
+        ul
+            each item in ing
+                li= item
+        
+        h4 Steps
+        ol
+            each item in steps
+                li= item

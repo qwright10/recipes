@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+    head
+        title Recipes
+        meta(name='viewport' content='width=device-width' initial-scale=1)
+        meta(name='description' content='Recipes')
+        meta(name='theme_color' content='#FFFFFF')
+        link(rel='manifest' href='/manifest.json')
+        link(href='https://fonts.googleapis.com/css?family=Pacifico&display=swap' rel='stylesheet')
+        link(rel='stylesheet' href='/style.css' type='text/css')
+    body
+        - let recipes = list
+        ul(id='nav')
+            li(class='navitem') #[a(class='navlink title') Recipes+]
+            li(class='navitem') #[a(href='/' class='navlink') Home]
+        
+        div(id='body')
+            h1 Top Recipes
+            ul
+                each recipe in recipes
+                    li #[a(href=`/recipes/${list.indexOf(recipe)}` class='recipe')= recipe.name]
+                    br
+        
+        div(id='footer')
+            p(class='copyright') Copyright 2019.
